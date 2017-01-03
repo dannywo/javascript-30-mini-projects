@@ -21,7 +21,13 @@
   
 
   <script>
-
+    function setDate() {
+      const date = new Date(),
+            seconds = date.getSeconds();
+      console.log(seconds)
+    }
+    
+    setInterval(setDate, 1000)
 
   </script>
 </body>
